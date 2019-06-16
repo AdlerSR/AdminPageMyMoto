@@ -1,0 +1,118 @@
+/* fonts */
+
+@font-face {
+    src: url(../fonts/kollektif-bold.ttf);
+    font-family: 'KollektifBold';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(../fonts/Gidole-Regular.otf);
+    font-family: 'Gidole';
+    font-weight: normal;
+}
+
+/* /fonts */
+
+/* default */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h1,
+h2,
+h4 {
+    color: #032539;
+}
+
+strong {
+    color: #707DC3;
+}
+
+/* /default */
+
+.title-h4 {
+    font-size: 3.5rem !important;
+}
+
+.right-bgcolor {
+    background: rgb(208, 218, 255);
+    background: linear-gradient(90deg, rgba(208, 218, 255, 1) 27%, rgb(231, 235, 250) 59%);
+    min-height: 100vh !important;
+
+}
+
+.left-bgcolor {
+    background-color: #fafafa;
+    min-height: 100vh !important;
+}
+
+.img-home {
+    width: 80%;
+}
+
+.align-input {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.label-check {
+    margin-left: 10px;
+
+}
+
+.text-img {
+    margin-left: calc(9% - 1px);
+    margin-top: 75px;
+}
+
+.p-img {
+    font-size: 2rem;
+}
+
+.input-text {
+    width: 380px;
+    padding: 10px;
+    border: solid 1px #ebebeb;
+    border-radius: 2px;
+}
+
+.input-shadow {
+    -moz-box-shadow: 2px 2px 0px 0px rgba(224, 220, 220, 0.8);
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(224, 220, 220, 0.8);
+    box-shadow: 2px 2px 0px 0px rgba(224, 220, 220, 0.8);
+    border-radius: 4px;
+}
+
+.link-senha {
+    margin-left: 35px;
+}
+
+button {
+    width: 380px;
+}
+
+i {
+    position: fixed;
+    margin-left: 120px;
+    margin-top: 5px;
+}
+
+.btn-custom {
+    background-color: #707DC3 !important;
+    color: white !important;
+}
+
+input:checked {
+    border-color: blue;
+}
+
+.msgLoginColor {
+    color: red;
+}
