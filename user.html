@@ -9,6 +9,8 @@
     <title>Admin</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/admin.css">
+    <meta name="google" content="notranslate" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/logoMoto.png" />
     <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-database.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
@@ -37,16 +39,9 @@
             <ul class="list-unstyled components">
                 <div class="text-center">
                     <img src="img/thumb.jpeg" class="profile-img">
-                    <h4>Nome Admin</h4>
                 </div>
                 <li class="active">
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Usuários</a>
-                </li>
-                <li class="side-item">
-                    <a href="admin.html">Administradores</a>
-                </li>
-                <li class="side-item">
-                    <a href="#">Meu Perfil</a>
                 </li>
                 <li class="side-item">
                     <a href="#" id="btnLogOut">Sair</a>
@@ -62,72 +57,14 @@
                     <button type="button" id="sidebarCollapse" class="btn btn-custom">
                         <i class="fas fa-bars"></i>
                     </button>
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item active adminName-navbar">
-                            <a class="nav-link" href="#"><strong>Admin Name</strong></a>
-                        </li>
-                    </ul>
                 </div>
             </nav>
             <div class="content-top">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="itemContent itemContent-info">
-                            <div class="itemContent-body">
-                                <div class="bodyContent-left">
-                                    <h2>578</h2>
-                                    <h5>Motoristas Aceitos</h5>
-                                </div>
-                                <div class="bodyContent-right">
-                                    <a href="#" class="iconContent"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="itemContent itemContent-info">
-                            <div class="itemContent-body">
-                                <div class="bodyContent-left">
-                                    <h2>578</h2>
-                                    <h5>Motoristas Recusados</h5>
-                                </div>
-                                <div class="bodyContent-right">
-                                    <a href="#" class="iconContent"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="itemContent itemContent-info">
-                            <div class="itemContent-body">
-                                <div class="bodyContent-left">
-                                    <h2>578</h2>
-                                    <h5>Motoristas Denunciados</h5>
-                                </div>
-                                <div class="bodyContent-right">
-                                    <a href="#" class="iconContent"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="itemContent itemContent-info">
-                            <div class="itemContent-body">
-                                <div class="bodyContent-left">
-                                    <h2>578</h2>
-                                    <h5>Motoristas Bloqueados</h5>
-                                </div>
-                                <div class="bodyContent-right">
-                                    <a href="#" class="iconContent"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
             <div>
-                <div class="row">
-                    <div class="col-lg-9">
+                <div class="row justify-content-center">
+                    <div class="col-lg-11">
                         <div class="itemContent itemContent-table">
                             <div class="itemContent-title">
                                 <h4>Cadastros Pendentes</h4>
@@ -145,17 +82,6 @@
                                         </tr>
                                     </thead>
                                 </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="itemContent itemContent-table">
-                            <div class="itemContent-title">
-                                <h4>Objetivos</h4>
-                                <a href="#" class="iconContent"><i class="fas fa-plus"></i></a>
-                            </div>
-                            <div class="itemContent-body text-center">
-
                             </div>
                         </div>
                     </div>
@@ -180,7 +106,6 @@
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js">
     </script>
-    <script src="js/app.js"></script>
     <script src="js/adminApp.js"></script>
     <script src="js/logOut.js"></script>
     <script src="js/fixedScroll.js"></script>
