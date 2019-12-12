@@ -48,7 +48,8 @@ function aceitar(i) {
 			placa: dados.placa,
 			perfil: "",
 			cnh_image: dados.cnh_image,
-			corridas: 0
+			corridas: 0,
+			avaliacao: 0
 		}).then(function () {
 			alert("Motorista aceito");
 			refId.remove();
