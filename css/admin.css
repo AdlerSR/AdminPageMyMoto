@@ -168,6 +168,8 @@ a.article:hover {
 /*Navbar*/
 
 .navbar-custom {
+    align-items: center;
+    justify-content: space-between;
     overflow: hidden;
     background: rgb(156, 176, 250);
     padding: 10px 10px;
@@ -331,3 +333,27 @@ a.article:hover {
 .img-table{
     height: 20%;
 }
+
+.invisivel {
+    display: none;
+}
+
+.flex-items{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .fixed-top{
+    display: inline;
+}
+
+.fixed-top .container-navbar{
+    display: inline;
+}
+
+.fixed-top .container-navbar input{
+    float: right !important;
+} */
